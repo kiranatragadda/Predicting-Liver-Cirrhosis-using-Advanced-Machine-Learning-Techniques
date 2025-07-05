@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Liver Cirrhosis Prediction</title>
+</head>
+<body>
+    <h2>Liver Cirrhosis Risk Prediction</h2>
+    <form action="/predict" method="post">
+
+        <p>Enter the following values:</p>
+
+        <input type="text" name="Drug" placeholder="Drug (Encoded)">
+        <input type="text" name="Age" placeholder="Age">
+        <input type="text" name="Sex" placeholder="Sex (1=M, 0=F)">
+        <input type="text" name="Ascites" placeholder="Ascites (1/0)">
+        <input type="text" name="Hepatomegaly" placeholder="Hepatomegaly (1/0)">
+        <input type="text" name="Spiders" placeholder="Spiders (1/0)">
+        <input type="text" name="Edema" placeholder="Edema (1/0)">
+        <input type="text" name="Bilirubin" placeholder="Bilirubin">
+        <input type="text" name="Cholesterol" placeholder="Cholesterol">
+        <input type="text" name="Albumin" placeholder="Albumin">
+        <input type="text" name="Copper" placeholder="Copper">
+        <input type="text" name="Alk_Phos" placeholder="Alk_Phos">
+        <input type="text" name="SGOT" placeholder="SGOT">
+        <input type="text" name="Tryglicerides" placeholder="Tryglicerides">
+        <input type="text" name="Platelets" placeholder="Platelets">
+        <input type="text" name="Prothrombin" placeholder="Prothrombin">
+        <input type="text" name="Stage" placeholder="Stage">
+
+        <br><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
